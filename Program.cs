@@ -22,7 +22,7 @@ public class Playlist
         if (song.DurationSeconds < 0)
         {
             throw new ArgumentOutOfRangeException(
-                nameof(song), "Duration must be zero or greater.");
+                nameof(song), " Duration must be zero or greater.");
         }
 
         _songs.Add(song);
